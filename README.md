@@ -24,11 +24,52 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
-Include your code here
+```
+1) To create Django Project :
+  In commandPrompt:
+    a) django-admin startproject project1
+    b) cd project1
+    c) code .
+
+2) To create Application :
+    a) Open new terminal
+    b) python manage.py startapp app1
+3) Models.py :
+
+# Create tables :
+
+from django.db import models
+
+class Student(models.Model):
+    stu_id=models.IntegerField()
+    stu_name=models.CharField(max_length=30)
+    dept=models.CharField(max_length=20)
+    email=models.CharField(max_length=30)
+    mobile_no=models.IntegerField()
+
+4)Admin.py :
+
+from django.contrib import admin
+from app1.models import Student
+
+admin.site.register(Student)
+
+5) Ternimal :
+
+    a) python manage.py makemigration
+    b) python manage.py migrate
+    c) python manage.py createsuperuser
+          - Add UserName and Password for Django server
+
+6) Login to Django administration :
+          - Add Student data and Save it
+
+
+```
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+
 
 
 ## RESULT
