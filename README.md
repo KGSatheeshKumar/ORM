@@ -68,6 +68,10 @@ admin.site.register(Student)
 ```
 
 ## OUTPUT
+![s1](https://github.com/KGSatheeshKumar/ORM/assets/128453421/7fbf1487-11be-46f1-8c97-545ad6dde5c9)
+![s2](https://github.com/KGSatheeshKumar/ORM/assets/128453421/62e2685e-490a-496e-842f-63658cb0948b)
+![s3](https://github.com/KGSatheeshKumar/ORM/assets/128453421/36776863-9f36-4978-9af7-77ced3b821a8)
+
 
 
 
